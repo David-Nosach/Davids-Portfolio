@@ -8,6 +8,10 @@ body {
   background-color: #f1f1f1;
 }
 
+section {
+  display: flex;
+}
+
 /*header styles */
 
 header {
@@ -27,6 +31,12 @@ header {
 }
 
 /* About Me styles */
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
 .about-me {
   display: flex;
   justify-content: space-between;
@@ -41,3 +51,41 @@ header {
   border-right: 5px solid red;
   padding-bottom: 40px;
 }
+
+/* Projects */
+
+/* main big project styles */
+.project-big-right {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color: green;
+  height: 80px;
+}
+
+/* small project styles */
+
+.project-small-right {
+  /* display: flex;
+  flex-direction: column; */
+  width: 50%;
+  background-color: yellow;
+  height: 30px;
+  /* flex: 1; */
+}
+
+.third-one {
+  background-color: red;
+}
+
+.small-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .project-item {
+  height: 30px;
+  width: 100%;
+  background-color: green;
+ 
+} */
