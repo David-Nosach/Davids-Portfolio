@@ -55,37 +55,23 @@ header {
 /* Projects */
 
 /* main big project styles */
-.project-big-right {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  background-color: green;
-  height: 80px;
+
+.project-item-big {
 }
 
 /* small project styles */
-
-.project-small-right {
-  /* display: flex;
-  flex-direction: column; */
-  width: 50%;
-  background-color: yellow;
-  height: 30px;
-  /* flex: 1; */
-}
-
-.third-one {
-  background-color: red;
-}
 
 .small-projects {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* .project-item {
-  height: 30px;
+.resume-image {
+  height: auto;
   width: 100%;
-  background-color: green;
- 
-} */
+}
+
+.smaller-image {
+  height: auto;
+  width: 50%;
+}
