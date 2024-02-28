@@ -8,57 +8,111 @@
     <title>Portfolio</title>
 </head>
 <header>
-    <h1>David Nosach</h1>
+    <div class="title">
+        <h1>David Nosach</h1>
+        <img src="images/face-close-up.png" alt="portfolio pic" class="portfolio-pic">
+    </div>
     <nav>
-        <ul>
-            <li>
-                <a href="">About</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
-            </li>
+        <ul class="navbar">
+
+            <li><a href="">About Me</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">Contact Me</a></li>
+            <li class="last-li"><a href="">Resume</a></li>
+
+
         </ul>
     </nav>
 
 
 </header>
 <section class="banner">
-
+    <h2 class="banner-subtitle">Portfolio</h2>
 </section>
 <main>
     <section class="about-me">
-        <aside class="side-bar">About Me</aside>
+        <aside class="side-bar">
+            <h2 class="work-title">About<br> Me</h2>
+        </aside>
         <article class="right-side" class="about">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, inventore. Odit perferendis iure quia
-                assumenda necessitatibus possimus molestias beatae nemo?
+            <p class="right-side-top about-me-par">Hi! My name is David and I find pleasure in making all things web
+                related. Having
+                graduated with a useless degree of B.S. in business administration, I realzied I needed to learn a
+                practical skill, and web development was an easy choice. Since then I have graduated from the Frontend
+                WebDevelopement Techdegree program with Team Treehouse, and completed many personal projects in order to
+                hone my skills as a web developer.
+                <br>
+                <br>
+
+                I am currently expanding my skillset learning new languages and frameworks as I continue to build
+                personal projects and software for local businesses. Check out some of my projects down below and don't
+                hesitate to contact me.
             </p>
     </section>
     <section class="projects">
-        <aside class="side-bar">Projects</aside>
+        <aside class="side-bar">
+            <h2 class="work-title">Work</h2>
+        </aside>
         <section class="right-side">
 
-            <div class="project-item-big">
-                <img src="images/Resume.png" alt="resume portfolio" class="resume-image">
+            <div class="right-side-top">
+                <img src="images/Resume.png" alt="portfolio website" class="resume-image">
+                <div class='image-div'>
+                    <h3>Portfolio</h3>
+                    <span>HTML/CSS</span>
+                </div>
             </div>
 
             <div class="small-projects">
-
-
-                <img src="images/Guess-The-Phrase.png" alt="guess the phrase game" class="smaller-image">
-
-                <img src="images/WebApp.png" alt="WebApp application" class="smaller-image">
-
-
-
-                <img src="images/Employee-Directory.png" alt="emmployee directory" class="smaller-image">
-
-
-                <img src="images/Horizion.png" alt="horizion website" class="smaller-image">
-
+                <div class="project-row">
+                    <img src="images/Guess-The-Phrase.png" alt="guess the phrase game" class="smaller-image">
+                    <div class='image-div'>
+                        <h3>Guess The Phrase</h3>
+                        <span>HTML/CSS/JS</span>
+                    </div>
+                    <div class="second-right-image">
+                        <img src="images/WebApp.png" alt="WebApp application"
+                            class="smaller-image smaller-right-image ">
+                        <div class='right-side-smaller'>
+                            <h3>Portfolio</h3>
+                            <span>HTML/CSS/JS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-row">
+                    <img src="images/Employee-Directory.png" alt="emmployee directory" class="smaller-image ">
+                    <div class='image-div'>
+                        <h3>WebApp</h3>
+                        <span>HTML/CSS/JS</span>
+                    </div>
+                    <div class="second-right-image">
+                        <img src="images/Horizion.png" alt="horizion website"
+                            class="smaller-image smaller-right-image ">
+                        <div class='right-side-smaller'>
+                            <h3>Horiseon</h3>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </section>
     <section class="contact">
-        <aside class="side-bar">Contact Me</aside>
+        <aside class="side-bar contact-side-bar">
+            <h2 class="work-title">Contact<br> Me</h2>
+        </aside>
+        <section class="right-side contact-right-center">
+            <ul class="contact-right">
+
+                <li><a href="">916.832.6950</a></li>
+                <li><a href="">davidnosach@yahoo.com</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">Github</a></li>
+                <li><a href="">Resume</a></li>
+
+
+            </ul>
+        </section>
     </section>
 
 </main>
